@@ -1,0 +1,105 @@
+.number {
+  margin-bottom: -3px;
+  margin-left: -8px;
+}
+
+.cocktail {
+  margin-top: 60px;
+  position: relative;
+  transition: 0.3s;
+  .hidden-text {
+    // display: none;
+    margin-top: -80px;
+    margin-left: -20px;
+    font-size: 14px;
+    font-family: $body;
+    position: absolute;
+    color: black;
+  }
+  &:hover {
+    transition: 0.3s;
+    .card {
+      width: 203px;
+    }
+    .hidden-text {
+      display: block;
+      color: green;
+      font-size: 26px;
+    }
+    .number {
+      font-size: 24px;
+      font-weight: 600;
+      font-family: $body;
+    }
+  }
+}
+
+.superhero {
+  position: relative;
+  transition: 0.3s;
+  background: transparent;
+  border: 0;
+  .hidden-text {
+    margin-left: -10px;
+    font-size: 18px;
+    font-family: $body;
+    position: absolute;
+    color: black;
+  }
+  &:hover {
+    transition: 0.3s;
+    .card {
+      width: 193px;
+    }
+    .hidden-text {
+      display: block;
+      font-size: 26px;
+      color: green;
+    }
+    .number {
+      font-size: 28px;
+      font-weight: 500;
+      font-family: $body;
+    }
+  }
+}
+
+.ts {
+  margin-top: 200px;
+  margin-left: 20px;
+  position: relative;
+  transition: 0.3s;
+  .hidden-text {
+    // display: none;
+    margin-top: -100px;
+    margin-left: -18px;
+    font-size: 16px;
+    font-family: $body;
+    position: absolute;
+    color: black;
+  }
+  &:hover {
+    transition: 0.3s;
+    .card {
+      width: 303px;
+    }
+    .hidden-text {
+      display: block;
+      color: green;
+      font-size: 28px;
+    }
+    .number {
+      font-size: 24px;
+      font-family: $felt;
+    }
+  }
+}
+
+.heading-center {
+  text-align: center;
+}
+
+.card {
+  border: 0;
+}
+

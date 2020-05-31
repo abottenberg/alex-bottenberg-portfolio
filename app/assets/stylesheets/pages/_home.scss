@@ -1,1 +1,55 @@
 // Specific CSS for your home-page
+h1 {
+  font-family: $felt;
+}
+
+.btn-back {
+  text-align: center;
+  font-family: $felt;
+  font-size: 40px;
+  color: black;
+  text-decoration: none;
+  &:hover {
+  color: green;
+  text-decoration: none;
+  }
+}
+
+.menu {
+  height: 100vh;
+}
+
+.btn-menu {
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: $felt;
+  font-size: 64px;
+  color: black;
+  text-decoration: none;
+  &:hover {
+  color: green;
+  text-decoration: none;
+  }
+}
+
+.dropdown-menu {
+  background: transparent;
+  border: 0;
+  a {
+    font-family: $body;
+    font-size: 18px;
+    transition: 0.3s;
+    &:hover {
+      color: green;
+      font-weight: 600;
+      transition: 0.4s;
+    }
+  }
+}
+
+.dropdown-item {
+  background: transparent;
+  &:hover {
+    background: transparent;
+  }
+}

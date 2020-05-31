@@ -1,0 +1,32 @@
+<div class="container">
+  <%= link_to 'Back', root_path, class: "btn-back"%>
+  <h1 class="heading-center">Projects</h1>
+  <div class="d-flex justify-content-center">
+    <div class="cocktail">
+      <p class="number">1</p>
+      <%= link_to 'https://bottenberg-cocktails.herokuapp.com/', target: 'blank' do %>
+        <%= image_tag "cocktail.jpg", alt: "cocktail", width: 200, class: 'card' %>
+        <p class="hidden-text">Mr Cocktail</p>
+      <% end %>
+    </div>
+
+    <div class="superhero">
+      <p class="number">2</p>
+      <%= link_to 'https://superhero-bnb.herokuapp.com/', target: 'blank' do %>
+        <%= image_tag "surperman.jpg", alt: "superman", width: 190, class: 'card' %>
+        <p class="hidden-text">Superhero BnB</p>
+      <% end %>
+    </div>
+
+    <div class="ts">
+      <p class="number">3</p>
+      <%= link_to 'http://www.turningseasons.co.uk/', target: 'blank' do %>
+        <%= image_tag "squash.jpg", alt: "turnip", width: 300, class: 'card' %>
+        <p class="hidden-text"> Turning Seasons</p>
+      <% end %>
+    </div>
+    <div>
+
+    </div>
+  </div>
+</div>
