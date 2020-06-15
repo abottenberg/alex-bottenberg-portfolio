@@ -38,3 +38,14 @@
     text-decoration: none;
   }
 }
+
+.link-social {
+  font-family: $body;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  &:hover {
+    color: $green;
+    text-decoration: none;
+  }
+}
