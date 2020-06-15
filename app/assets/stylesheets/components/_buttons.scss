@@ -1,0 +1,40 @@
+.btn-back {
+  text-align: center;
+  font-family: $felt;
+  font-size: 200px;
+  color: black;
+  text-decoration: none;
+  &:hover {
+    color: $green;
+    text-decoration: none;
+    text-shadow: 2px 2px 11px rgba(0,0,0,0.3);
+  }
+}
+
+.btn-back-contact {
+  margin-right: 20px;
+  text-align: center;
+  font-family: $felt;
+  font-size: 200px;
+  color: black;
+  text-decoration: none;
+  &:hover {
+    color: $green;
+    text-decoration: none;
+  }
+}
+
+.btn-menu {
+  margin-top: -16px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  text-align: center;
+  font-family: $felt;
+  font-size: 200px;
+  color: black;
+  text-decoration: none;
+  &:hover {
+    color: $green;
+    text-decoration: none;
+  }
+}

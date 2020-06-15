@@ -3,44 +3,35 @@ h1 {
   font-family: $felt;
 }
 
-.btn-back {
-  text-align: center;
+.email {
+  margin-top: -20px;
+  text-align: right;
   font-family: $felt;
-  font-size: 40px;
+  font-size: 200px;
   color: black;
-  text-decoration: none;
-  &:hover {
-  color: green;
-  text-decoration: none;
-  }
+  line-height: 1;
 }
 
 .menu {
   height: 100vh;
 }
 
-.btn-menu {
-  margin-bottom: 40px;
-  text-align: center;
-  font-family: $felt;
-  font-size: 64px;
-  color: black;
-  text-decoration: none;
-  &:hover {
-  color: green;
-  text-decoration: none;
-  }
-}
-
 .dropdown-menu {
-  background: transparent;
+  text-align: center;
+  vertical-align: middle;
+  background: rgba(231, 232, 227, 0.7);
+  padding-top: 32px;
+  height: 255px;
+  width: 255px;
+  border-radius: 50%;
   border: 0;
   a {
-    font-family: $body;
-    font-size: 18px;
+    font-family: $felt;
+    font-size: 40px;
     transition: 0.3s;
+    color: black;
     &:hover {
-      color: green;
+      color: $green;
       font-weight: 600;
       transition: 0.4s;
     }
@@ -49,7 +40,14 @@ h1 {
 
 .dropdown-item {
   background: transparent;
+  margin-bottom: -8px;
   &:hover {
     background: transparent;
   }
+}
+
+.home-background {
+  background-image: url("background.jpeg");
+  background-size: cover;
+  background-position: center top;
 }

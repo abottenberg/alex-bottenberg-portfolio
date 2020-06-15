@@ -1,65 +1,87 @@
-.number {
-  margin-bottom: -3px;
-  margin-left: -8px;
+.heading-center {
+  margin-top: -128px;
+  margin-bottom: 80px;
+  font-size: 56px;
 }
 
+
 .cocktail {
-  margin-top: 60px;
   position: relative;
   transition: 0.3s;
   .hidden-text {
-    // display: none;
-    margin-top: -80px;
-    margin-left: -20px;
+    display: none;
     font-size: 14px;
     font-family: $body;
     position: absolute;
+    top: 185px;
+    left: -32px;
     color: black;
+    bottom: -40px;
+  }
+  .title {
+    font-size: 30px;
+    font-family: $felt;
+    position: absolute;
+    top: 14px;
+    left: 56px;
+    color: black;
+  }
+  .number {
+    position: absolute;
+    font-size: 24px;
+    font-family: $felt;
+    top: -2px;
+    left: -24px;
   }
   &:hover {
     transition: 0.3s;
     .card {
-      width: 203px;
+      transform: scale(1.1);
     }
     .hidden-text {
       display: block;
-      color: green;
-      font-size: 26px;
-    }
-    .number {
-      font-size: 24px;
-      font-weight: 600;
-      font-family: $body;
     }
   }
 }
 
 .superhero {
+  margin-top: 200px;
   position: relative;
   transition: 0.3s;
   background: transparent;
   border: 0;
   .hidden-text {
-    margin-left: -10px;
-    font-size: 18px;
+    display: none;
+    font-size: 14px;
     font-family: $body;
     position: absolute;
     color: black;
+    bottom: -10px;
+    left: 36px;
+  }
+  .title {
+    font-size: 30px;
+    font-family: $felt;
+    position: absolute;
+    color: black;
+    bottom: 68px;
+    left: 36px;
+    display: block;
+  }
+  .number {
+    font-size: 24px;
+    font-family: $felt;
+    position: absolute;
+    top: 93px;
+    right: 36px;
   }
   &:hover {
     transition: 0.3s;
     .card {
-      width: 193px;
+      transform: scale(1.1);
     }
     .hidden-text {
       display: block;
-      font-size: 26px;
-      color: green;
-    }
-    .number {
-      font-size: 28px;
-      font-weight: 500;
-      font-family: $body;
     }
   }
 }
@@ -70,27 +92,33 @@
   position: relative;
   transition: 0.3s;
   .hidden-text {
-    // display: none;
-    margin-top: -100px;
-    margin-left: -18px;
-    font-size: 16px;
+    display: none;
+    font-size: 14px;
     font-family: $body;
     position: absolute;
     color: black;
   }
+  .title {
+    font-size: 30px;
+    font-family: $felt;
+    position: absolute;
+    color: black;
+    bottom: 109px;
+    left: 49px;
+  }
+  .number {
+    font-size: 24px;
+    font-family: $felt;
+    position: absolute;
+    top: 200px;
+  }
   &:hover {
     transition: 0.3s;
     .card {
-      width: 303px;
+      transform: scale(1.2);
     }
     .hidden-text {
       display: block;
-      color: green;
-      font-size: 28px;
-    }
-    .number {
-      font-size: 24px;
-      font-family: $felt;
     }
   }
 }
@@ -101,5 +129,6 @@
 
 .card {
   border: 0;
+  background: transparent;
 }
 

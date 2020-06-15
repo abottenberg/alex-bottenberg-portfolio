@@ -1,32 +1,34 @@
 <div class="container">
-  <%= link_to 'Back', root_path, class: "btn-back"%>
+  <%= link_to '<<', root_path, class: "btn-back"%>
   <h1 class="heading-center">Projects</h1>
-  <div class="d-flex justify-content-center">
-    <div class="cocktail">
+  <div class="d-flex justify-content-around">
+    <div class="ts">
       <p class="number">1</p>
+      <%= link_to 'http://www.turningseasons.co.uk/', target: 'blank' do %>
+        <%= image_tag "lettuce.png", alt: "turnip", width: 360, class: 'card' %>
+        <p class="title">Turning Seasons</p>
+        <p class="hidden-text">A group project.<br>Turning Seasons aims to promote an understanding of food seasons and make it easy for you to cook locally sourced, seasonal produce. Unlike other recipe apps and websites, we only show recipes who's main ingredients are currently in season.</p>
+      <% end %>
+    </div>
+
+    <div class="cocktail">
+      <p class="number">2</p>
       <%= link_to 'https://bottenberg-cocktails.herokuapp.com/', target: 'blank' do %>
-        <%= image_tag "cocktail.jpg", alt: "cocktail", width: 200, class: 'card' %>
-        <p class="hidden-text">Mr Cocktail</p>
+        <%= image_tag "martini.png", alt: "cocktail", width: 280, class: 'card' %>
+        <p class="title">Mr Cocktail</p>
+        <p class="hidden-text">An individual project.<br>A cocktail recipe app.</p>
       <% end %>
     </div>
 
     <div class="superhero">
-      <p class="number">2</p>
-      <%= link_to 'https://superhero-bnb.herokuapp.com/', target: 'blank' do %>
-        <%= image_tag "surperman.jpg", alt: "superman", width: 190, class: 'card' %>
-        <p class="hidden-text">Superhero BnB</p>
-      <% end %>
-    </div>
-
-    <div class="ts">
       <p class="number">3</p>
-      <%= link_to 'http://www.turningseasons.co.uk/', target: 'blank' do %>
-        <%= image_tag "squash.jpg", alt: "turnip", width: 300, class: 'card' %>
-        <p class="hidden-text"> Turning Seasons</p>
+      <%= link_to 'https://superhero-bnb.herokuapp.com/', target: 'blank' do %>
+        <%= image_tag "superman.png", alt: "superman", width: 360, class: 'card' %>
+        <p class="title">Superhero BnB</p>
+        <p class="hidden-text">A group project.<br>Build your superhero and super villain teams.<br>Add your own supers.</p>
       <% end %>
     </div>
-    <div>
 
-    </div>
+
   </div>
 </div>
